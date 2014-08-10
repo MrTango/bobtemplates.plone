@@ -4,6 +4,17 @@ mr.bob tempates for Plone
 for general instruction how to use mr.bob see:
 http://mrbob.readthedocs.org/en/latest/index.html
 
+Install bobtemplates.plone
+--------------------------
+
+Until we make a release on PyPi, you can install it like this:
+::
+   $ git clone git@github.com:MrTango/bobtemplates.plone.git
+   $ cd bobtemplates.plone
+   $ python setup.py install
+
+You will probably do this in a virtualenv.
+
 use bobtemplates.plone template
 -------------------------------
 
