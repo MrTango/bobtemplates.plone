@@ -9,5 +9,6 @@ use bobtemplates.plone template
 
 you can use this template to create a new Plone addon like this:
 ::
-
-   mrbob -c ~/.mrbob.ini bobtemplates:plone
+   $ mkdir collective.mynewpackage
+   $ cd collective.mynewpackage
+   $ mrbob -c ~/.mrbob.ini bobtemplates:plone
