@@ -40,6 +40,7 @@ setup(name='bobtemplates.plone',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'mr.bob',
           # -*- Extra requirements: -*-
       ],
       extras_require={'test': ['plone.app.testing']},
