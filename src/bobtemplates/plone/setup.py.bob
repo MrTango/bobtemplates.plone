@@ -37,10 +37,11 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'five.pt',
-        'Plone',
-        'plone.api',
         'setuptools',
+        'Plone',
+	'Pillow',
+        'five.pt',
+        'plone.api',
         'z3c.jbot',
     ],
     extras_require={
