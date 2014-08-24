@@ -21,3 +21,5 @@ var
 *.pyc
 *.egg-info
 src/niteoweb.fabfile/
+.ropeproject
+.ropeproject/*
